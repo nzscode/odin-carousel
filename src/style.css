@@ -1,3 +1,62 @@
-.redFont {
-    color: red;
+/* #carOptions {
+    display: none;
+}
+
+#carOptionsLbl {
+    display: none;
+} */
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+#previousImageBtn,
+#nextImageBtn {
+    border: none;
+    /* background-color: #00000038; */
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightgrey;
+    width: 50px;
+    height: 30px;
+}
+
+#carouselFrame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+}
+
+#carouselImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 15px;
+}
+
+img {
+    border-radius: 15px;
+    border: 3px solid #000000b0;
+}
+
+#imageNav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333a2;
+}
+
+a {
+    color: #333333a2;
 }

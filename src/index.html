@@ -3,10 +3,101 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <script
+            src="https://kit.fontawesome.com/08988bcf09.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>DUII</title>
     </head>
     <body>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at vero
-        aliquam, dolorem eligendi dignissimos.
+        <main>
+            <div id="dropdownContainer">
+                <p>Please click for options:</p>
+                <button id="carOptionsBtn">Car Options</button>
+                <label for="cars" id="carOptionsLbl" class="invisible"
+                    >Car Choices:
+                </label>
+                <select name="cars" id="carOptions" class="invisible">
+                    <option value="ford">Ford</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="honda">Honda</option>
+                </select>
+            </div>
+
+            <div id="imageCarouselContainer">
+                <div id="carouselFrame">
+                    <button id="previousImageBtn"></button>
+                    <div id="carouselImages">
+                        <!-- <img
+                            src="https://picsum.photos/300/300?random=6"
+                            alt=""
+                            id="img0"
+                        /> -->
+
+                        <div id="img0Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/10/300/300"
+                                alt=""
+                                id="img0"
+                            />
+                            <p>Image 0</p>
+                        </div>
+                        <div id="img1Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/13/300/300"
+                                alt=""
+                                id="img1"
+                            />
+                            <p>Image 1</p>
+                        </div>
+                        <div id="img2Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/18/300/300"
+                                alt=""
+                                id="img2"
+                            />
+                            <p>Image 2</p>
+                        </div>
+                        <div id="img3Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/25/300/300"
+                                alt=""
+                                id="img3"
+                            />
+                            <p>Image 3</p>
+                        </div>
+                        <div id="img4Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/35/300/300"
+                                alt=""
+                                id="img4"
+                            />
+                            <p>Image 4</p>
+                        </div>
+                        <div id="img5Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/10/300/300"
+                                alt=""
+                                id="img5"
+                            />
+                            <p>Image 5</p>
+                        </div>
+
+                        <div id="img6Container" class="imageOptions">
+                            <img
+                                src="https://picsum.photos/id/79/300/300"
+                                alt=""
+                                id="img6"
+                            />
+                            <p>Image 6</p>
+                        </div>
+                    </div>
+                    <button id="nextImageBtn"></button>
+                </div>
+                <div id="imageNav"></div>
+            </div>
+        </main>
+        <script src="./index.js"></script>
     </body>
 </html>
